@@ -1,4 +1,4 @@
-# API de Cotações e Câmbio
+# Módulo de Cotações e Câmbio
 
 <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Feconomia.culturamix.com%2Fblog%2Fwp-content%2Fgallery%2Fcotacoes-bovespa-1%2Fcotacoes_bovespa_tempo_real_de_verdade.gif&f=1&nofb=1" alt="cotações">
 
