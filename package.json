@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "puppeteer": "^5.5.0"
-  }
+  },
+  "name": "npm-cotacoes",
+  "description": "Pacote para consulta de cotações e câmbio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hallex-abreu/npm-cotacoes.git"
+  },
+  "keywords": ["cotações", "câmbio", "moedas", "bolsa de valores", "dinheiro"],
+  "author": "Hallex Abreu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hallex-abreu/npm-cotacoes/issues"
+  },
+  "homepage": "https://github.com/hallex-abreu/npm-cotacoes#readme"
 }
