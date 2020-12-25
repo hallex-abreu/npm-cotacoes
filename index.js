@@ -31,7 +31,7 @@ async function cotacoes(cotacao){
     break;
   }
 
-  const browser = await puppeteer.launch({headless: false});
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto(`https://www.infomoney.com.br/cotacoes/${url}`);
 
@@ -67,7 +67,7 @@ async function cotacoes(cotacao){
   });
   await browser.close();    
 
- return dadoCotacao;
+  return dadoCotacao;
 }
 
 async function cambio () {
@@ -308,8 +308,6 @@ async function cambio () {
 
   return dadoCotacao;
 }
-
-cambio();
 
 module.exports = {
   cotacoes,
